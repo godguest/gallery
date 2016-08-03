@@ -1,0 +1,31 @@
+/* Base Application Styles */
+html, body {
+  background: #222;
+}
+html, body, #app {
+  width: 100%;
+  height: 100%;
+}
+/* stage */
+.stage {
+  position: relative;
+  width: 100%;
+  height: 680px;
+}
+/* image */
+.img-sec {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #ddd;
+}
+/* controller */
+.controller-nav {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
