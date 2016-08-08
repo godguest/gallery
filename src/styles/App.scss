@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/icons/iconfont.eot"); /* IE9 */
+  src: url("../fonts/icons/iconfont.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/icons/iconfont.woff") format("woff"), /* chrome, firefox */
+       url("../fonts/icons/iconfont.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+       url("../fonts/icons/iconfont.svg#iconfont") format("svg"); /* iOS 4.1- */
+}
+
 html, body {
   background: #222;
-  font-family: Arial;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
 }
 html, body, #app {
   width: 100%;
@@ -35,7 +44,7 @@ html, body, #app {
       transform-origin: 0 50% 0;
       transform-style: preserve-3d;
       transition: .6s ease-in-out;
-      box-shadow: 0 0 1px #CCC;
+      box-shadow: 0 0 10px #AAA;
       &.is-inverse {
         transform: translate(320px) rotateY(180deg);
       }
@@ -59,7 +68,7 @@ html, body, #app {
         line-height: 1.25;
         background: #FFF;
         box-sizing: border-box;
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) translateZ(1px);
         backface-visibility: hidden;
         p {
           margin: 0;
@@ -77,5 +86,37 @@ html, body, #app {
   z-index: 100;
   width: 100%;
   text-align: center;
+  @at-root {
+    .controller-unit {
+      display: inline-block;
+      margin: 0 5px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background: #AAA;
+      border-radius: 50%;
+      transform: scale(.5);
+      transition: transform .6s ease-in-out, background .3s;
+      &.is-center {
+        background: #888;
+        transform: scale(1);
+        &::after {
+          color: #FFF;
+          line-height: 30px;
+          font-family: "iconfont" !important;
+          content: "\e699";
+          /* only for mac */
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        &.is-inverse {
+          background: #555;
+          transform: rotateY(180deg);
+        }
+      }
+    }
+  }
 }
 
