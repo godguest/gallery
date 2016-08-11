@@ -2,16 +2,24 @@
 
 使用React和Webpack创建的图片画廊应用示例 - 以慕课网《React实践图片画廊应用》课程内容为基础并使用ES6语法编写
 
-## 演示及实例
+## 在线演示
 
-在线演示：https://godguest.github.io/gallery/
+https://godguest.github.io/gallery/
 
-本地浏览示例（需安装有Node.js），在示例根目录下运行：
+## 浏览本地示例
 
-    npm install
-    npm start
+**首先[下载并安装Node.js](https://nodejs.org/)**，Clone or download示例到本地，然后在命令行中切换到示例根目录并执行以下命令：
+
+```
+npm install
+npm start
+```
 
 浏览器会自动打开示例地址`http://localhost:8000/webpack-dev-server/`
+
+### 除错
+
+如果在执行`npm install`命令时遇到了问题，请首先删除npm自动生成的`/node_modules/`目录（位于示例根目录下），然后再次执行`npm install`命令。
 
 ## 浏览器支持
 
