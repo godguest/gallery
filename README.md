@@ -8,7 +8,7 @@ https://godguest.github.io/gallery/
 
 ## 浏览本地示例
 
-**首先[下载并安装Node.js](https://nodejs.org/)**，Clone or download示例到本地，然后在命令行中切换到示例根目录并执行以下命令：
+**首先[下载并安装Node.js](https://nodejs.org/)**，Clone or download示例到本地，然后**以管理员身份运行**命令提示符，切换到示例根目录并执行以下命令：
 
 ```
 npm install
