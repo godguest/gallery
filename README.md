@@ -19,7 +19,7 @@ npm start
 
 ### 除错
 
-如果在执行`npm install`命令时遇到了问题，请首先删除npm自动生成的`/node_modules/`目录（位于示例根目录下），然后再次执行`npm install`命令。
+如果在执行`npm install`命令时遇到了问题，首先删除npm自动生成的`/node_modules/`目录（位于示例根目录下），然后再次执行`npm install`命令。
 
 ## 浏览器支持
 
