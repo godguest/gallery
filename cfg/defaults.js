@@ -30,7 +30,7 @@ function getDefaultModules() {
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["> 5%"]}'
+        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 versions"]}'
       },
       {
         test: /\.sass/,
@@ -38,7 +38,7 @@ function getDefaultModules() {
       },
       {
         test: /\.scss/,
-        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["> 5%"]}!sass-loader?outputStyle=expanded'
+        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 versions"]}!sass-loader?outputStyle=expanded'
       },
       {
         test: /\.less/,
