@@ -23,6 +23,6 @@ npm start
 
 ## 浏览器支持
 
-![Edge](https://raw.github.com/alrra/browser-logos/master/edge/edge_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png)
+![Edge](https://github.com/alrra/browser-logos/blob/master/src/edge/edge_48x48.png) | ![Firefox](https://github.com/alrra/browser-logos/blob/master/src/firefox/firefox_48x48.png) | ![Chrome](https://github.com/alrra/browser-logos/blob/master/src/chrome/chrome_48x48.png) | ![Safari](https://github.com/alrra/browser-logos/blob/master/src/safari/safari_48x48.png) | ![Opera](https://github.com/alrra/browser-logos/blob/master/src/opera/opera_48x48.png)
 --- | --- | --- | --- | ---
 Edge 12+ ✔ | Firefox 10+ ✔ | Chrome 12+ ✔ | Safari 4+ ✔ | Opera 15+ ✔
