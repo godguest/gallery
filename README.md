@@ -21,6 +21,8 @@ npm start
 
 如果在执行`npm install`命令时遇到了问题，首先删除npm自动生成的`/node_modules/`目录（位于示例根目录下），然后再次执行`npm install`命令。
 
+如果使用最新版本的Node.js和最新版本的操作系统运行示例时遇到了问题，尝试使用较早版本的Node.js和较早版本的操作系统运行示例。
+
 ## 浏览器支持
 
 ![Edge](https://github.com/alrra/browser-logos/blob/master/src/edge/edge_48x48.png) | ![Firefox](https://github.com/alrra/browser-logos/blob/master/src/firefox/firefox_48x48.png) | ![Chrome](https://github.com/alrra/browser-logos/blob/master/src/chrome/chrome_48x48.png) | ![Safari](https://github.com/alrra/browser-logos/blob/master/src/safari/safari_48x48.png) | ![Opera](https://github.com/alrra/browser-logos/blob/master/src/opera/opera_48x48.png)
